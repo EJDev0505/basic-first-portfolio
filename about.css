@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.nav-link{
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 100000;
+    width: 100%;
+}
+
+
+.header h2{
+font-size: 2rem;
+font-weight: bold;
+color: #fff;
+letter-spacing: 3px;
+}
+
+.header span{
+    color: rgb(97, 210, 230);
+}
+
+
+.nav-link ul{
+display: flex;
+gap: 3rem;
+align-items: center;
+}
+
+li{
+list-style: none;
+text-transform: uppercase;
+font-weight: 500;
+font-size: 18px;
+letter-spacing: 3px;
+transition: 0.6s;
+}
+
+li a{
+text-decoration: none;
+color: rgb(97, 210, 230);
+border-radius: 1rem;
+padding: 5px 1rem;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+li a:hover{
+background-color: rgb(97, 210, 230);
+color: #fff;
+
+}
+
+.banner{
+height: 100%;
+width: 100%;
+position: absolute;
+background-size: cover;
+top: 0;
+z-index: -1;
+}
+
+.section{
+    height: 100%;
+    width: 100%;
+    padding-top: 8.5rem;
+    display: flex;
+}
+
+.section .line{
+    width: 3px;
+    background-color: aqua;
+    height: 20em;
+    bottom: -3rem;
+    position: relative;
+    right: -6rem;
+}
+
+.image-about{
+padding-left: 10rem;
+}
+
+.image-about img{
+    height: 25rem;
+    width: 20rem;
+    border: 2px solid rgb(97, 210, 230);
+    border-radius: 10rem;
+    transition: transform 1s all ease-in-out;
+}
+
+.image-about img:hover{
+    transform: scale(1.2);
+}
+
+.info{
+padding-left: 12rem;
+
+}
+
+.info p{
+    color: #fff;
+    border: 2.5px solid #fff;
+    border-radius: 1rem;
+    width: 30rem;
+    height: 21rem;
+    padding: 2rem 2rem;
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 5px 15px rgb(97, 210, 230);
+    background-color: rgb(4, 113, 133);
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -34.2rem;
+    left: .3rem;
+    width: 5rem;
+}
+
+
+.contacts a {
+    font-size: 36px;
+    padding-right: 10px;
+    padding: 2.57rem;
+}
+
+.contacts a:hover{
+    scale: 1.2;
+}
+
+.fa-facebook{
+    color: rgb(97, 210, 230);
+}
+
+.fa-github{
+    color: rgb(97, 210, 230);
+}
+
+.fa-envelope{
+    color: rgb(97, 210, 230);
+}
+
+.fa-instagram{
+    color: rgb(97, 210, 230);
+}
+
+
+button {
+    top: -5rem;
+    right: -63.1rem;
+outline: none;
+cursor: pointer;
+border: none;
+padding: 0.9rem 2rem;
+margin: 0;
+font-family: inherit;
+font-size: inherit;
+position: relative;
+display: inline-block;
+letter-spacing: 0.05rem;
+font-weight: 800;
+font-size: 17px;
+border-radius: 500px;
+overflow: hidden;
+background: #fff;
+color: rgb(97, 210, 230);
+border: 2px solid rgb(97, 210, 230);
+font-family: Arial, Helvetica, sans-serif;
+box-shadow: 0px 5px 15px aqua;
+}
+
+button span {
+position: relative;
+z-index: 10;
+transition: color 0.4s;
+text-transform: uppercase;
+letter-spacing: 3px;
+font-weight: 600;
+}
+
+button:hover span {
+color: rgb(97, 210, 230);
+}
+
+button::before,
+button::after {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: 0;
+}
+
+button::before {
+content: "";
+background: #000;
+width: 120%;
+left: -10%;
+transform: skew(30deg);
+transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+button:hover::before {
+transform: translate3d(100%, 0, 0);
+}
+
+.persue{
+    top: -6.5rem;
+    position: relative;
+}
+
+
+
+.persue h3{
+    color: aqua;
+    font-size: 1.2rem;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    bottom: -4rem;
+    position: relative;
+}
+
+.persue p{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    font-size: 1.1rem;
+    position: relative;
+    bottom: -4rem;
+}

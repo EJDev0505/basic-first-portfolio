@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.nav-link{
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    position: fixed;
+    width: 100%;
+}
+
+.header h2{
+    font-size: clamp(2rem, 2.625rem + -2vw, 1.5rem);
+font-weight: bold;
+color: #fff;
+letter-spacing: 3px;
+}
+
+.header span{
+    color: rgb(97, 210, 230);
+}
+
+
+.nav-link ul{
+display: flex;
+gap: 3rem;
+align-items: center;
+}
+
+li{
+list-style: none;
+text-transform: uppercase;
+font-weight: 500;
+font-size: clamp(0.625rem, 0rem + 2vw, 1.125rem);
+letter-spacing: 3px;
+transition: 0.6s;
+}
+
+li a{
+text-decoration: none;
+color: rgb(97, 210, 230);
+border-radius: 1rem;
+padding: 5px 1rem;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+li a:hover{
+background-color: rgb(97, 210, 230);
+color: #fff;
+
+}
+
+.banner{
+height: 100vh;
+width: 100%;
+position: absolute;
+background-size: cover;
+top: 0;
+z-index: -1;
+}
+
+.section{
+    width: 100%;
+    height: 100%;
+    padding-top: 8rem;
+    display: flex;
+    justify-content: center;
+        }
+    
+    
+    .tables{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+        padding: 0 15rem;
+    }
+    
+        .tables .table-1{
+            background-color: rgb(4, 113, 133);
+            box-shadow: 0px 5px 15px rgb(97, 210, 230);
+            padding: 2rem 2rem;
+            border: 2.5px solid #fff;
+            border-radius: 1rem;
+            height: 10rem;
+            width: 17rem;
+            transition: scale .5s all ease-in-out;
+        }
+    
+        .tables .table-1:hover{
+            scale: 1.1;
+        }
+    
+        .table-1 .head{
+            color: #fff;
+            letter-spacing: 2px;
+            font-size: 1.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 600;
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+            top: -1rem;
+        }
+    
+        .table-1 .details{
+            display: flex;
+            justify-content: center;
+            color: #fff;
+            align-items: center;
+            font-weight: 200;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    
+    
+        .tables .table-2{
+            background-color: rgb(4, 113, 133);
+            box-shadow: 0px 5px 15px rgb(97, 210, 230);
+            padding: 2rem 2rem;
+            border: 2.5px solid #fff;
+            border-radius: 1rem;
+            height: 10rem;
+            width: 17rem;
+            transition: scale .5s all ease-in-out;
+        }
+    
+        .tables .table-2:hover{
+            scale: 1.1;
+        }
+    
+        .table-2 .head{
+            color: #fff;
+            letter-spacing: 2px;
+            font-size: 1.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 600;
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+            top: -1rem;
+        }
+    
+        .table-2 .details{
+            display: flex;
+            justify-content: center;
+            color: #fff;
+            align-items: center;
+            font-weight: 200;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    
+    
+        .tables .table-3{
+            background-color: rgb(4, 113, 133);
+            box-shadow: 0px 5px 15px rgb(97, 210, 230);
+            padding: 2rem 2rem;
+            border: 2.5px solid #fff;
+            border-radius: 1rem;
+            height: 10rem;
+            width: 17rem;
+            transition: scale .5s all ease-in-out;
+        }
+    
+        .tables .table-3:hover{
+            scale: 1.1;
+        }
+    
+        .table-3 .head{
+            color: #fff;
+            letter-spacing: 2px;
+            font-size: 1.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 600;
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+            top: -1rem;
+        }
+    
+        .table-3 .details{
+            display: flex;
+            justify-content: center;
+            color: #fff;
+            align-items: center;
+            font-weight: 200;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    
+    
+        .tables .table-4{
+            background-color: rgb(4, 113, 133);
+            box-shadow: 0px 5px 15px rgb(97, 210, 230);
+            padding: 2rem 2rem;
+            border: 2.5px solid #fff;
+            border-radius: 1rem;
+            height: 10rem;
+            width: 17rem;
+            transition: scale .5s all ease-in-out;
+        }
+    
+        .tables .table-4:hover{
+            scale: 1.1;
+        }
+    
+        .table-4 .head{
+            color: #fff;
+            letter-spacing: 2px;
+            font-size: 1.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 600;
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+            top: -1rem;
+        }
+    
+        .table-4 .details{
+            display: flex;
+            justify-content: center;
+            color: #fff;
+            align-items: center;
+            font-weight: 200;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    
+        .contacts{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -31.7rem;
+        left: .3rem;
+        width: 5rem;
+    }
+
+.contacts a {
+    font-size: 36px;
+    padding-right: 10px;
+    padding: 2.57rem;
+}
+
+.contacts a:hover{
+    scale: 1.2;
+}
+
+.fa-facebook{
+    color: rgb(97, 210, 230);
+}
+
+.fa-github{
+    color: rgb(97, 210, 230);
+}
+
+.fa-envelope{
+    color: rgb(97, 210, 230);
+}
+
+.fa-instagram{
+    color: rgb(97, 210, 230);
+}
